@@ -29,7 +29,11 @@ View the full project demo here:
 ## **Project Descriptions & How to Run**
 
 ### **1. Smart Traffic Light System**
+<<<<<<< HEAD
 *Link to system: https://www.tinkercad.com/things/1AH80oNS9lr-smart-traffic-control-and-monitoring-system?sharecode=--uqGRiU2WtpkinETE4Y_ZYKsL66Y_xyJLF4Qs298_I
+=======
+
+>>>>>>> 01138833ac414eed32fc694781b2caf02c79afa3
 **Path:** `Project_1_Traffic_Light/traffic_light.ino`
 A simplified embedded traffic system running on Arduino logic.
 
