@@ -1,7 +1,7 @@
 /*
  * ═══════════════════════════════════════════════════════════════════════════
- * Project 4 – Dynamic Math and Data Processing Engine (FINAL 6/6 VERSION)
- * Author: Maxtoshie
+ * Project 4 – Dynamic Math and Data Processing Engine
+ * Author: Maxwel Okoth
  * Summative Assessment 2025
  * 
  * Features:

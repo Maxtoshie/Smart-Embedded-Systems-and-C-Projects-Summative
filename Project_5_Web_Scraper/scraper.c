@@ -1,6 +1,6 @@
 /*
  * Project 5 – Multi-threaded Web Scraper (NO libcurl required)
- * Author: Maxtoshie
+ * Author: Maxwel Okoth
  *
  * Uses only standard C + pthreads
  * Each thread writes its own unique HTML-like content to a separate file

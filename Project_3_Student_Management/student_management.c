@@ -1,7 +1,7 @@
 /*
  * Project 3 - Advanced Student Management System
- * Author: Maxtoshie
- * Summative Assessment 2025 - Target: 5/5
+ * Author: Maxwel Okoth
+ * Summative Assessment 2025
  * Features:
  *   - Dynamic memory allocation (malloc/realloc/free)
  *   - Structures with arrays (grades)

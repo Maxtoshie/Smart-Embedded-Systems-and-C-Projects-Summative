@@ -1,6 +1,6 @@
 #!/bin/bash
-# Project 2 - Advanced System Monitoring Script (No sudo needed)
-# Author: Maxtoshie - Summative 2025
+# Project 2 - Advanced System Monitoring Script
+# Author: Maxwel Okoth - Summative 2025
 
 # Use user-writable locations only
 LOGFILE="$HOME/sysmonitor.log"
