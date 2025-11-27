@@ -1,16 +1,16 @@
 
 # **Smart Embedded Systems and C Projects – Summative Assessment 2025**
 
-*Maxwel Okoth
+*By Maxwel Okoth*
 
 This repository contains five fully implemented projects demonstrating embedded systems design, shell scripting, systems programming, data structures, algorithms, and multi-threading in C.
 
 ---
 
-## Presentation Video
+## **Presentation Video**
 
-View the full project demo here:
-**[https://drive.google.com/file/d/1UsoAjaxjercxBkxbswuFiDOtYMlw7JJQ/view?usp=sharing](https://drive.google.com/file/d/1UsoAjaxjercxBkxbswuFiDOtYMlw7JJQ/view?usp=sharing)**
+Watch the full project demo:
+[View on Google Drive](https://drive.google.com/file/d/1UsoAjaxjercxBkxbswuFiDOtYMlw7JJQ/view?usp=sharing)
 
 ---
 
@@ -20,7 +20,7 @@ View the full project demo here:
 | ----- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------- |
 | **1** | Smart Traffic Light System            | Non-blocking `millis()` logic, adaptive green duration, button-based vehicle detection, modular design, Tinkercad-ready      | Complete |
 | **2** | Advanced System Monitoring Script     | Runs without sudo, live system metrics, user-writable logs, background monitoring, configurable thresholds, interactive menu | Complete |
-| **3** | Student Management System             | Full CRUD, binary file persistence, `qsort` sorting, search (linear/binary), analytics report, strong input validation       | Complete |
+| **3** | Student Management System             | Full CRUD, binary file persistence, `qsort` sorting, linear/binary search, analytics report, strong input validation         | Complete |
 | **4** | Dynamic Math & Data Processing Engine | Function pointers, dynamic memory, file I/O, searching, sorting, dataset operations, clean terminal UI                       | Complete |
 | **5** | Multi-threaded Web Scraper            | POSIX threads, per-thread file output, simulated webpage scraping, safe thread management, no external libraries required    | Complete |
 
@@ -29,24 +29,22 @@ View the full project demo here:
 ## **Project Descriptions & How to Run**
 
 ### **1. Smart Traffic Light System**
-<<<<<<< HEAD
-*Link to system: https://www.tinkercad.com/things/1AH80oNS9lr-smart-traffic-control-and-monitoring-system?sharecode=--uqGRiU2WtpkinETE4Y_ZYKsL66Y_xyJLF4Qs298_I
-=======
 
->>>>>>> 01138833ac414eed32fc694781b2caf02c79afa3
+**Link:** [Tinkercad Project](https://www.tinkercad.com/things/1AH80oNS9lr-smart-traffic-control-and-monitoring-system?sharecode=--uqGRiU2WtpkinETE4Y_ZYKsL66Y_xyJLF4Qs298_I)
 **Path:** `Project_1_Traffic_Light/traffic_light.ino`
-A simplified embedded traffic system running on Arduino logic.
+
+A simplified embedded traffic light system implemented using Arduino.
 
 **Features:**
 
 * Non-blocking timing using `millis()`
-* Dynamic green time based on queue length
+* Dynamic green time based on vehicle queue
 * Simple hardware: 3 LEDs + 1 button
 * Debug output via Serial
-* 100% compatible with Tinkercad Circuits
+* Fully compatible with Tinkercad Circuits
 
 **Run:**
-Import `.ino` into Arduino IDE or Tinkercad.
+Import the `.ino` file into Arduino IDE or Tinkercad and upload to your board.
 
 ---
 
@@ -54,9 +52,9 @@ Import `.ino` into Arduino IDE or Tinkercad.
 
 **Path:** `Project_2_System_Monitor/monitor.sh`
 
-A Bash-based system utility for monitoring CPU, RAM, and disk usage.
+A Bash-based system utility to monitor CPU, RAM, and disk usage.
 
-**Highlights:**
+**Features:**
 
 * No root access required
 * Logs saved under `~/sysmonitor.log`
@@ -66,7 +64,7 @@ A Bash-based system utility for monitoring CPU, RAM, and disk usage.
 
 **Run:**
 
-```
+```bash
 chmod +x monitor.sh
 ./monitor.sh
 ```
@@ -82,14 +80,14 @@ A C program for managing student records with analytics and persistent storage.
 **Features:**
 
 * Create, read, update, delete student entries
-* Data stored in efficient binary format
+* Data stored in binary format
 * Sorting by GPA, name, or ID using `qsort`
 * Reporting: averages, top students, distributions
-* Input validation + robust error handling
+* Robust input validation and error handling
 
 **Compile & Run:**
 
-```
+```bash
 gcc student_management.c -o student
 ./student
 ```
@@ -102,17 +100,17 @@ gcc student_management.c -o student
 
 A modular and extensible computational engine.
 
-**Key Features:**
+**Features:**
 
 * Function pointers for dynamic operation selection
 * Dynamic memory allocation for datasets
 * File-based dataset loading and saving
 * Searching, sorting, statistical operations
-* Clean and intuitive terminal UI
+* Clean terminal UI
 
 **Compile & Run:**
 
-```
+```bash
 gcc math_engine.c -o mathengine
 ./mathengine
 ```
@@ -123,19 +121,19 @@ gcc math_engine.c -o mathengine
 
 **Path:** `Project_5_Web_Scraper/scraper.c`
 
-A POSIX-threads web scraping simulator.
+A POSIX-thread-based web scraping simulator.
 
 **Features:**
 
 * Parallel page fetching
 * Thread-isolated file outputs
-* Simulated URLs (no dependencies)
-* Graceful failure detection for bad URLs
-* Clean thread lifecycle (create → join → exit)
+* Simulated URLs (no external dependencies)
+* Graceful error handling for invalid URLs
+* Proper thread lifecycle management
 
 **Compile & Run:**
 
-```
+```bash
 gcc scraper.c -o scraper -lpthread
 ./scraper
 ```
@@ -144,8 +142,7 @@ gcc scraper.c -o scraper -lpthread
 
 ## **Technologies Demonstrated**
 
-* Low-level C programming
-* Pointers, structs, and dynamic memory management
+* Low-level C programming: pointers, structs, dynamic memory
 * File I/O (binary and text)
 * Algorithm design: sorting, searching, reporting
 * Bash scripting and Linux utilities
@@ -164,3 +161,5 @@ Project_4_Math_Engine/
 Project_5_Web_Scraper/
 README.md
 ```
+
+---
